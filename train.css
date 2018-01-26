@@ -1,0 +1,33 @@
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+}
+
+body {
+  margin-top: 20px;
+  background: black;
+  color: gray;
+}
+
+#card {
+  width: 444px;
+  display: block;
+  margin: 0 auto;
+  background: white;
+  margin-bottom: 80px;
+}
+
+#number {
+  font-size: 30vh;
+  color: lightgray;
+}
+
+div {
+  text-align: center;
+}
+
+span {
+  font-size: 7vh;
+  line-height: 1.5;
+}
+
+
