@@ -1,23 +1,6 @@
-html {
-  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
-}
-
 body {
   margin-top: 20px;
   background: black;
-  color: gray;
-}
-
-#card {
-  width: 444px;
-  display: block;
-  margin: 0 auto;
-  background: white;
-  margin-bottom: 80px;
-}
-
-#number {
-  font-size: 30vh;
   color: lightgray;
 }
 
@@ -25,9 +8,69 @@ div {
   text-align: center;
 }
 
-span {
+img {
+  margin: 0 auto;
+  background: white;
+}
+
+#target {
+  font-size: 25vh;
+  height: 30vh;
+  margin-bottom: 50px;
+}
+#target img {
+  height: 30vh;
+}
+
+#target.threenum {
+  font-size: 13vh;
+  padding-top: 5vh;
+  height: 25vh;
+}
+
+#memimage span {
+  display: block;
   font-size: 7vh;
   line-height: 1.5;
 }
 
+#options {
+  margin-top: 50px;
+}
+#options span {
+  color: #424242;
+}
+#options span.selected {
+  color: lightgray;
+}
+.optiongroup {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
+#target img {
+  position: relative;
+}
+
+.leftcard {
+  transform: translate(-50px,-10px);
+  z-index: -1;
+  transform: rotate(-20deg);
+  left: 100px;
+  top: 10px;
+  border: 1px solid black;
+}
+
+.rightcard {
+  z-index: 1;
+  transform: rotate(20deg);
+  right: 100px;
+  top: 10px;
+  border: 1px solid black;
+}
+
+.centercard {
+  z-index: 0;
+  border: 1px solid black;
+}
